@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Box | Hasibul Islam</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 123, 0, 1) 0%, rgba(242, 239, 50, 1) 100%);
+
+        }
+        .container{
+            width:90%;
+            margin: 0 auto;
+            text-align: center;
+            height: 100%;
+            overflow:auto;            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .container::-webkit-scrollbar{
+            width: 0px;
+        }
+
+        h1 {
+            color: rgb(54, 84, 149);
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 2px 4px;
+        }
+
+        p {
+            margin-top: 3rem;
+            font-size: 5rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: -1px 5px 6px;
+        }
+        @media(max-width: 600px){
+                
+            p {
+                font-size: 2rem;
+                text-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Prompt Box</h1>
+        <p id="enter_person"></p>
+
+    </div>
+
+
+
+    <script src="test.js"></script>
+</body>
+
+</html>
